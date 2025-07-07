@@ -1,7 +1,7 @@
 # Import the Flask class from the flask module
 from flask import Flask, make_response, request
 
-# Create an instance of the Flask class, passing in the
+# Create an instance of the Flask class, passing in the 
 # name of the current module
 app = Flask(__name__)
 
