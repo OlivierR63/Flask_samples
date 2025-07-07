@@ -60,8 +60,8 @@ POST /person: Add a new person record.
 
 ## Running Tests
 To run the unit tests for this project, use the following command:  
-```bash
-python -m pytest tests/
+    ```bash
+    python -m pytest tests/
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
