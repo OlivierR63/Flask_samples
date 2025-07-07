@@ -34,28 +34,33 @@ To set up the project locally, follow these steps:
    git clone https://github.com/OlivierR63/Flask_samples.git
 
 2. Navigate to the project directory:
-cd Flask_samples/lab
+   ```bash
+   cd Flask_samples/lab
 
 3. Install the required dependencies:
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 4. Run the Flask application:
-python server.py
+    ```bash
+    python server.py
 
 ## Usage
-Once the server is running, you can interact with the API using tools like curl, Postman, or any HTTP client. The server will start on http://localhost:5000.
+Once the server is running, you can interact with the API using tools like curl, Postman, or any HTTP client. 
+The server will start on http://localhost:5000.
 
 ## API Endpoints
-GET /: Returns a simple greeting message.
-GET /no_content: Returns a response with no content.
-GET /data: Returns the count of data entries.
-GET /name_search?q=<name>: Search for a person by name.
-GET /person/<uuid>: Retrieve a person by their UUID.
-DELETE /person/<uuid>: Delete a person by their UUID.
-POST /person: Add a new person record.
+GET /: Returns a simple greeting message.  
+GET /no_content: Returns a response with no content.  
+GET /data: Returns the count of data entries.  
+GET /name_search?q=<name>: Search for a person by name.  
+GET /person/<uuid>: Retrieve a person by their UUID.  
+DELETE /person/<uuid>: Delete a person by their UUID.  
+POST /person: Add a new person record.  
 
 ## Running Tests
-To run the unit tests for this project, use the following command:
+To run the unit tests for this project, use the following command:  
+```bash
 python -m pytest tests/
 
 ## Contributing
