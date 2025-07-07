@@ -34,7 +34,7 @@ To set up the project locally, follow these steps:
    git clone https://github.com/OlivierR63/Flask_samples.git
 
 2. Navigate to the project directory:
-cd Flask_samples/chapeau
+cd Flask_samples/lab
 
 3. Install the required dependencies:
 pip install -r requirements.txt
